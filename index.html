@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="dark-mode">
+    <nav>
+        <div class="logo">DarkApp</div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <h1>Welcome to DarkApp</h1>
+        <p>A modern dark mode experience</p>
+    </header>
+
+    <section id="features" class="features">
+        <div class="feature-card">
+            <i class="fas fa-rocket"></i>
+            <h2>Fast Performance</h2>
+            <p>Lightning quick load times</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-paint-brush"></i>
+            <h2>Beautiful Design</h2>
+            <p>Modern and sleek interface</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-mobile-alt"></i>
+            <h2>Mobile First</h2>
+            <p>Responsive on all devices</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We create beautiful and functional web applications with modern technologies.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DarkApp. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
